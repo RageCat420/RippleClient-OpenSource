@@ -1,0 +1,31 @@
+accessWidener	v1	named
+
+accessible class net/minecraft/client/particle/FireworksSparkParticle$Explosion
+accessible field net/minecraft/entity/LivingEntity jumpingCooldown I
+accessible field net/minecraft/client/MinecraftClient itemUseCooldown I
+accessible field net/minecraft/util/math/Direction HORIZONTAL [Lnet/minecraft/util/math/Direction;
+accessible field net/minecraft/entity/LimbAnimator pos F
+accessible field net/minecraft/block/AbstractBlock$AbstractBlockState shapeCache Lnet/minecraft/block/AbstractBlock$AbstractBlockState$ShapeCache;
+accessible field net/minecraft/block/AbstractBlock$AbstractBlockState$ShapeCache isFullCube Z
+accessible field net/minecraft/world/chunk/PalettedContainer data Lnet/minecraft/world/chunk/PalettedContainer$Data;
+accessible method net/minecraft/world/chunk/PalettedContainer$Data palette ()Lnet/minecraft/world/chunk/Palette;
+accessible method net/minecraft/entity/LivingEntity tryUseTotem (Lnet/minecraft/entity/damage/DamageSource;)Z
+accessible method net/minecraft/client/world/ClientWorld getPendingUpdateManager ()Lnet/minecraft/client/network/PendingUpdateManager;
+accessible field net/minecraft/client/particle/Particle red F
+accessible field net/minecraft/client/particle/Particle green F
+accessible field net/minecraft/client/model/ModelPart cuboids Ljava/util/List;
+accessible field net/minecraft/client/model/ModelPart children Ljava/util/Map;
+accessible field net/minecraft/client/model/ModelPart$Cuboid sides [Lnet/minecraft/client/model/ModelPart$Quad;
+accessible method net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket write (Lnet/minecraft/network/PacketByteBuf;)V
+accessible method net/minecraft/client/render/GameRenderer renderHand (Lnet/minecraft/client/render/Camera;FLorg/joml/Matrix4f;)V
+accessible field net/minecraft/entity/LivingEntity leaningPitch F
+accessible method net/minecraft/entity/Entity setFlag (IZ)V
+accessible method net/minecraft/entity/Entity getFlag (I)Z
+accessible field net/minecraft/entity/LivingEntity fallFlyingTicks I
+accessible field net/minecraft/entity/Entity touchingWater Z
+accessible method net/minecraft/entity/LivingEntity setLivingFlag (IZ)V
+accessible field net/minecraft/entity/Entity vehicle Lnet/minecraft/entity/Entity;
+accessible method net/minecraft/client/render/entity/model/BipedEntityModel getHeadParts ()Ljava/lang/Iterable;
+accessible method net/minecraft/client/render/entity/model/PlayerEntityModel getBodyParts ()Ljava/lang/Iterable;
+accessible field net/minecraft/entity/player/PlayerEntity PLAYER_MODEL_PARTS Lnet/minecraft/entity/data/TrackedData;
+accessible method net/minecraft/client/sound/PositionedSoundInstance <init> (Lnet/minecraft/sound/SoundEvent;Lnet/minecraft/sound/SoundCategory;FFLnet/minecraft/util/math/random/Random;ZILnet/minecraft/client/sound/SoundInstance$AttenuationType;DDD)V
