@@ -8,6 +8,7 @@ put RippleClient in the mods folder along with fabric api run this client
 - noname(leak this sourcecode for me)
 
 ## Power by NullPoint development
+#### discord server:https://discord.gg/24xbfWvnPx
 
 ### ps: the newer version is already in the folder
 #### ripple1.1.2-cracked.jar is already remove any verification
